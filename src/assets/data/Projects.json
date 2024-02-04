@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "title": "Person Authentication and Identification by Using Machine Learning",
+      "description": "This research proposes a unique approach to biometric security by exploring the potential of using EEG signals for person authentication or identification. EEG signals of brain functioning, making them a promising modality for identification. The model is trained Using SVM, KNN, Decision Tree, RandomForest, Ensemble Learning model. • Dataset: Physionet EEG Motor Movement/Imagery Dataset",
+      "date": " June - Aug 2023",
+      "techStack": ["Python, SVM, KNN, Decision Tree, RandomForest, Ensemble Learning"],
+      "codeUrl": "https://github.com/kovvuruRajesh/EEG-based-Person-Identification-and-Authentication",
+      "imageSrc": "/gpt.jpg",
+      "imageSrcWebP": "/gpt.jpg",
+      "imageInfo": "Research"
+    },
+
+    {
+      "title": "Obstacle Avoidance in Autonomous Vehicle",
+      "description": "Research to avoid obstacles, we use Collision avoidance. Applying the Latest YOLOv8 version for object detection and LiDAR sensor for the range of object. Simulation over ROS(Robot OperatingSystem) Software for realistic approach. Technologies using – Deep learning, object detection algorithms(YOLOv8), ROS, rclpy, Ubuntu.",
+      "date": "Aug - Dec 2023",
+      "techStack": ["Python", "OpenCV", "Deep learning"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Obstacle-Avoidance-in-Autonomous-Vehicles",
+
+      "imageSrc": "/Car.png",
+      "imageSrcWebP": "/Car.png",
+      "imageInfo": "UROP"
+    },
+    
+    {
+      "title": "Food Villa",
+      "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
+      "date": "April 2023",
+      "techStack": ["JavaScript", "REACT","REDUX","Tailwind"],
+      "codeUrl": "",
+      "liveUrl": null,
+      "imageSrc": "/foodvilla.png",
+      "imageSrcWebP": "/foodvilla.webp",
+      "imageInfo": "Food Villa"
+    }
+  ]
+}

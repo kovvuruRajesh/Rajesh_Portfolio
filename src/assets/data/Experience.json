@@ -1,0 +1,37 @@
+
+{
+    "experience": [
+      {
+        "position": "Django Intern",
+        "company": "APSSDC",
+        "duration": "June - August 2023",
+        "description": "Developed a comprehensive hospital management system Website using Django and SQLite, showcasing adept skills in web development, database management, and creating seamless healthcare solutions.",
+        "certificateLink": "https://drive.google.com/file/d/1O9fW_d9EhUbISiv51gr-OQUVWSfzCD2Z/view?usp=sharing"
+      },
+
+      {
+        "position": "Research Intern ",
+        "company": "SRM University AP",
+        "duration": "June - August 2023",
+        "description": "This research proposes a unique approach to biometric security by exploring the potential of using EEG signals for person authentication or identification. For this we used   Dataset: Physionet EEG Motor Movement/Imagery Dataset",
+        "certificateLink": "https://drive.google.com/file/d/1Sf2-ByUhJi5EFP7ymTElQLiVUpqvMp1U/view?usp=sharing"
+      },
+
+      {
+        "position": "Data Science ",
+        "company": "Code Clause",
+        "duration": "July - August 2023",
+        "description": "Assisted in various tasks and gained hands-on experience on Data Science.",
+        "certificateLink": "https://drive.google.com/file/d/1AjMFVUPqtDXTlmEFJ-2j6Le6WPOwB3Fw/view?usp=sharing"
+      },
+
+      {
+        "position": "Web Developer",
+        "company": "Bharath Intern",
+        "duration": "June - July 2023",
+        "description": "Developed a Netflix_homepage with HTML and CSS as a part of my internship",
+        "certificateLink": "https://drive.google.com/file/d/1MT3LoudTuxExgtB7bvejTYw53ZWvpYxb/view?usp=sharing"
+      }
+    ]
+  }
+  

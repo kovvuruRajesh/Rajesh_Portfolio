@@ -1,0 +1,25 @@
+{
+  "milestones": [
+    {
+      "title": "Bachelor of Technology",
+      "address": "SRM University AP",
+      "highlights": ["CGPA: 8.99"],
+
+      "year": "2021 - 2025"
+    },
+    {
+      "title": "Senior Secondary",
+      "address": "Narayana Junior College - Vijayawada",
+      "highlights": ["Percentage: 97.2%"],
+
+      "year": "2019 - 2021"
+    },
+    {
+      "title": "SSC",
+      "address": "Aditya High School - Proddatur",
+      "highlights": ["GPA: 10"],
+
+      "year": "2018 - 2019"
+    }
+  ]
+}

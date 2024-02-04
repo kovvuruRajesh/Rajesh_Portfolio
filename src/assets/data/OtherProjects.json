@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "title": "Netflix",
+      "description": "Netflix is a web application done with HTML, CSS, and JavaScript",
+      "date": "Aug 2023",
+      "techStack": ["HTML","CSS", "JavaScript"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Netflix_Home_Page",
+
+      "imageSrc": "/Netflix.png",
+      "imageSrcWebP": "/Netflix.png",
+      "imageInfo": "Netflix_Home_Image"
+    },
+    {
+      "title": "Google Clone",
+      "description": "A Google Clone application is a simple front page of Google with HTML, CSS",
+      "date": "Sep 2023",
+      "techStack": ["HTML","CSS"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Google-Clone",
+      "imageSrc": "/GoogleClone.png",
+      "imageSrcWebP": "/GoogleClone.png",
+      "imageInfo": "Google Clone"
+    },
+    {
+      "title": "Temperature Converter",
+      "description": "A Website which can be used to Convert ",
+      "date": "November 2023",
+      "techStack": ["JavaScript", "HTML","CSS"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Temperature_Converter",
+      "liveUrl": "",
+
+      "imageSrc": "/temp.png",
+      "imageSrcWebP": "/temp.png",
+      "imageInfo": "Calculator"
+    }
+    
+  ]
+}
