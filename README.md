@@ -7,3 +7,5 @@ This is my Portfolio
   <li>cd my-portfolio</li>
   <li>npm start</li>
 </ul>
+<h3>Deploy in Vercal</h3>
+<a href = "https://rajesh-portfolio-omega.vercel.app/">Live Now</a>
