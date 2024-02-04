@@ -8,4 +8,4 @@ This is my Portfolio
   <li>npm start</li>
 </ul>
 <h3>Deploy in Vercal</h3>
-<a href = "https://rajesh-portfolio-omega.vercel.app/">Live Now</a>
+<!-- <a href = "https://rajesh-portfolio-omega.vercel.app/">Live Now</a> -->
