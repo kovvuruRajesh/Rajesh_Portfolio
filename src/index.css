@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+
+  font-family: "Poppins", sans-serif;
+  color: var(--text-dark);
+}
+
+/* 
+:root {
+  --accent-color: #FF0063;
+  --avatar-bg-color: #66BFBF;
+
+  --text-white: #fff;
+  --text-light: #f7faff;
+  --text-dark: #141c3a;
+  --home-title-color: #66BFBF;
+
+  --box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+
+  --bg-white: #fff;
+  --bg-light: #EAF6F6;
+  --bg-dark: hsl(180, 41%, 45%);
+  --bg-home: #FFFFFF;
+
+  --btn-text-color: #fff;
+  --btn-bg-color: #FF0063;
+
+  --box-border-radius: 10px;
+}
+*/
+
+:root {
+  --accent-color: orange;
+  --avatar-bg-color: orange;
+  --text-white: #fff;
+  --text-light: #f7faff;
+  --text-dark: #141c3a;
+  --home-title-color: gray;
+  --box-shadow: hsla(240, 5%, 41%, 0.2) 0 7px 29px 0;
+  --bg-white: #fff;
+  --bg-light: #eaf6f6;
+  --bg-dark: gray;
+  --bg-home: #fff;
+  --btn-text-color: #fff;
+  --btn-bg-color: orange;
+  color:#ffab24;
+  --box-border-radius: 10px;
+}
+/* Common CSS Properties For the Project*/
+section {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+
+  --heading-in-time: 1s;
+  --line-in-time: 0.5s;
+}
+
+nav.main-nav {
+  transition: top 1s ease-in-out;
+}
+
+.on-project .main-nav {
+  top: -100%;
+}
+
+.section-header {
+  position: relative;
+  font-size: 2rem;
+  text-align: left;
+  width: fit-content;
+  left: var(--x);
+
+  top: var(--y);
+  transform: translateX(-250%);
+
+  transition: var(--heading-in-time);
+  transition-delay: var(--line-in-time);
+}
+
+section.active .section-header {
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.section-header::before {
+  content: "";
+  background-color: var(--text-dark);
+  position: absolute;
+  width: calc(100% * (3 / 8));
+  height: 5px;
+  border-radius: 5px;
+  bottom: 0;
+
+  transition: var(--line-in-time);
+  transition-delay: 0s;
+
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+section.active .section-header::before {
+  transform: scaleX(1);
+  transition-delay: var(--heading-in-time);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01s !important;
+    animation-delay: 0.01s !important;
+    scroll-behavior: auto !important;
+
+    transition-delay: 0.01s !important;
+  }
+}
+
+@media only screen and (max-width: 60rem) {
+  body.hidden{
+    overflow: hidden;
+  }
+}
