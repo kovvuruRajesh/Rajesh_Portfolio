@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Button.module.css";
 
 const Button = ({ isLink = false, link, children }) => {
-  // If link then simply add the class and return it
   if (isLink) {
     const StyledChildren = () =>
       React.Children.map(children, (child) =>

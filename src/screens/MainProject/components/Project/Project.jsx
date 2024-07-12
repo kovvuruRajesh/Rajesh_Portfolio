@@ -9,11 +9,11 @@ const Project = ({ project }) => {
   const imageWithEffect = (
     <Atropos className={styles.imageContainer} shadowScale={0.8}>
       <picture>
-        <source
+        {/* <source
           srcSet={require("../../../../assets/images/MainProjects" +
             project.imageSrcWebP)}
           type="image/jpg"
-        />
+        /> */}
         <img
           src={require("../../../../assets/images/MainProjects" +
             project.imageSrc)}

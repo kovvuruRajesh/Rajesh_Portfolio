@@ -1,5 +1,46 @@
 {
   "projects": [
+
+    {
+      "title": "Tasty Bite",
+      "description": "It is a complete food ordering website using React JS, MongoDB, Express, Node JS and Stripe payment gateway. In this Full Stack Food delivery app project it has Frontend website, Admin Panel and Backend server.",
+      "date": "March 2024",
+      "techStack": ["JavaScript", "REACT","Nodejs","Express JS", "MongoDB"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Food_Delivery_MERN",
+      "liveUrl": null,
+      "imageSrc": "/fooddelivery.png",
+      "imageInfo": "Food Villa"
+    },
+
+
+    {
+      "title": "Join Now",
+      "description": "This platform integrates secure authentication with Clerk, dynamic real-time meeting controls, and efficient scheduling for future and past meetings. It prioritizes user experience with a responsive design, ensuring seamless functionality across all devices. Key features include access to recorded meetings, personal meeting rooms. ",
+      "date": "June 2024",
+      "techStack": ["Next JS", "Type Script","Tailwind CSS","Clerk", "getstream"],
+      "codeUrl": "https://github.com/kovvuruRajesh/Join_Now",
+      "liveUrl": "join-now-theta.vercel.app" ,
+      "imageSrc": "/joinnow.png",
+      "imageInfo": "joinnow"
+    },
+
+
+
+    {
+      "title": "Trendy Nest",
+      "description": "Developed comprehensive e-commerce platform using React JS. Utilized React Router to implement seamless navigation between product pages for men’s, women’s, and kids’ categories. Incorporating React’s state management capabilities for seamless user interactions and efficient updates.",
+      "date": "Feb 2024",
+      "techStack": ["HTML", "CSS","JavaScript","React JS"],
+      "codeUrl": "https://github.com/kovvuruRajesh/E-Commerce",
+      "liveUrl": "https://e-commerce-silk-nu.vercel.app/" ,
+      "imageSrc": "/e-commerce.png",
+
+      "imageInfo": "e-commerce"
+    },
+
+
+
+
     {
       "title": "Person Authentication and Identification by Using Machine Learning",
       "description": "This research proposes a unique approach to biometric security by exploring the potential of using EEG signals for person authentication or identification. EEG signals of brain functioning, making them a promising modality for identification. The model is trained Using SVM, KNN, Decision Tree, RandomForest, Ensemble Learning model. • Dataset: Physionet EEG Motor Movement/Imagery Dataset",
@@ -7,7 +48,7 @@
       "techStack": ["Python, SVM, KNN, Decision Tree, RandomForest, Ensemble Learning"],
       "codeUrl": "https://github.com/kovvuruRajesh/EEG-based-Person-Identification-and-Authentication",
       "imageSrc": "/gpt.jpg",
-      "imageSrcWebP": "/gpt.jpg",
+
       "imageInfo": "Research"
     },
 
@@ -17,22 +58,8 @@
       "date": "Aug - Dec 2023",
       "techStack": ["Python", "OpenCV", "Deep learning"],
       "codeUrl": "https://github.com/kovvuruRajesh/Obstacle-Avoidance-in-Autonomous-Vehicles",
-
       "imageSrc": "/Car.png",
-      "imageSrcWebP": "/Car.png",
       "imageInfo": "UROP"
-    },
-    
-    {
-      "title": "Food Villa",
-      "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
-      "date": "April 2023",
-      "techStack": ["JavaScript", "REACT","REDUX","Tailwind"],
-      "codeUrl": "",
-      "liveUrl": null,
-      "imageSrc": "/foodvilla.png",
-      "imageSrcWebP": "/foodvilla.webp",
-      "imageInfo": "Food Villa"
     }
   ]
 }
