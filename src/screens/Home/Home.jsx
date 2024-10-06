@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 // import Avatar from "./components/Avatar/Avatar";
-import Rajesh_img from './imagesfolder/Rajesh_photo.jpg';
+import Rajesh_img from './imagesfolder/Rajesh.jpg';
 import { Link } from "react-scroll";
 import Resume from "../../assets/document/Resume.pdf";
 import Button from "../../components/Button/Button";
